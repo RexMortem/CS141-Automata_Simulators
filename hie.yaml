@@ -1,0 +1,11 @@
+cradle:
+  multi:
+    - path: "./"
+      config:
+        cradle:
+          stack:
+            - path: "./src"
+              component: "cswk-ants:lib"
+
+            - path: "./test"
+              component: "cswk-ants:test:cswk-ants-test"
